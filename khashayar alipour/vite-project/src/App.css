@@ -1,0 +1,42 @@
+.container {
+    width: 50%;
+    height: 50vh;
+    margin: 50px auto;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #043972;
+    border-radius: 8px;
+  }
+  
+  .tab-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #fff; /* خط زیر تب فعال */
+  }
+  
+  .tab-button:hover {
+    color: #cce4ff;
+  }
+  
+  .content {
+    color: #fff; 
+    font-size: 30px;
+    background-color: #5395e0;
+    height: 200px;
+  }
